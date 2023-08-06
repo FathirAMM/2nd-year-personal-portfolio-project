@@ -1,0 +1,60 @@
+.Container{
+	width: 100%;
+	height:120%;
+	margin: 10px;
+	background-color: #D5F5E3 ;
+	color:#C0392B;
+	font-size:18;
+	border: 5px;
+	font-weight: bold;
+	border-style: solid;
+	
+}
+.top{
+	padding: 5px;
+	background-color: #00CED1;
+	border-bottom-style: solid;
+	border-bottom-color: #C0392B;
+}
+
+.top h1{
+	padding: 0px;
+	text-align: center;
+	color:#aa1122;
+}
+
+.top h2{
+	padding: 0px;
+	text-align: center;
+	color:blue;
+}
+.imgr{
+	float: right;        /*right aligned image*/
+	width: 140px;
+	 height: 140px;
+}
+#leftnav {
+	float: left;
+	width: 160px;
+	margin: 0;
+	padding: 1em;
+}
+#leftnav ul li a {
+	text-decoration: underline;
+	background-color:#FADBD8;
+	width: 120px;
+	color: red;
+ 	font-weight: bold;
+	font-size:26;
+	list-style: none;
+}
+#leftnav ul li a:hover {
+	background-color: #FFC300;        /*event handling  */
+}
+#content{
+	margin-left: 250px;          
+	border-left: 10px solid gray; /*size of the divider and color*/
+	padding: 4em;     	        /* text central */
+	max-width: 50em;          /*content text's width*/
+}
+
